@@ -135,7 +135,7 @@ public class Recipes {
 
 		//VAT Recipe
 		RecipeHelper.addShapedRecipe(new ItemStack(Core.renderedMultiMachines, 1, DoubleMeta.VAT), new Object[] {
-			"C C", "C C", "CCC", 'C', "ingotCopper"
+			"C C", "C C", "CCC", 'C', "ingotBronze"
 		});
 		
 		//Ingot Caster
@@ -145,7 +145,7 @@ public class Recipes {
 		
 		//Ladle
 		RecipeHelper.addShapedRecipe(new ItemStack(Core.ladle), new Object[] {
-			" C ", " C ", "C  ", 'C', "ingotCopper"
+			" C ", " C ", "C  ", 'C', "ingotBronze"
 		});
 		
 		//Bucket
